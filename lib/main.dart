@@ -14,8 +14,8 @@ class MyApp extends StatelessWidget {
       title: 'Productos App',
       initialRoute: '/home',
       getPages: [
-        GetPage(name: '/home', page: () => const HomeScreen()),
-        GetPage(name: '/products', page: () => const ProductsScreen()),
+        GetPage(name: '/home', page: () => HomeScreen()),
+        GetPage(name: '/products', page: () => ProductsScreen()),
       ],
       theme: ThemeData(
         primarySwatch: Colors.blue,

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:productos_app/controller/products_controller.dart';
 
 class ProductsScreen extends StatelessWidget {
-  const ProductsScreen({super.key});
+  final ProductsController productsController = Get.put(ProductsController());
 
   @override
   Widget build(BuildContext context) {
